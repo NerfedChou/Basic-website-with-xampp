@@ -16,12 +16,23 @@
             Login in With
         </span>
         <span class="loginArea">
-            Login Area
+            <form action="welcome.php" method="post">
+                <div class = "account">
+                    <img src ="LoginPics/account.svg" alt="account"/>
+                </div>
+                <span class="login">
+                        <input type="text" name="name" placeholder="Email"><br><br>
+                    <div class="password-wrapper">
+                        <input type="password" id = "password" name="password" placeholder="Password"><br><br>
+                        <span class="show-password" onclick="togglePassword()">
+                            <img id ="icon" src="LoginPics/notactive.png" />
+                        </span>
+                    </div>
+                </span>
+            <input type="submit" class = "submit" value="Login"> 
+            </form>
         </span>
-   <!--     <form action="welcome.php" method="post">
-                Name: <input type="text" name="name"><br><br>
-                Email: <input type="email" name="email"><br><br>
-            <input type="submit"> -->
     </div>
+<script src="script/login.js"></script>
 </body>
 </html>
