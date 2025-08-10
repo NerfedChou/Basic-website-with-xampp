@@ -9,7 +9,6 @@
     <form action="welcome.php" method="post">
         Name: <input type="text" name="name"><br><br>
         Email: <input type="email" name="email"><br><br>
-        
         <input type="submit">
 </body>
 </html>
