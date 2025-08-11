@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
+    <title>Login</title>
     <link rel="stylesheet" href="login.css">
 </head>
 
 <body>
     <header>
-    Head
+    Be a Hacker now (FOCUSING ON LOGIN)
     </header>
     <div class="form"> <!-- Region -->
         <span class="login-form">
@@ -21,7 +21,7 @@
                     <img src ="LoginPics/account.svg" alt="account"/>
                 </div>
                 <span class="login">
-                        <input type="text" name="name" placeholder="Email"><br><br>
+                        <input type="text" name="email" placeholder="Email"><br><br>
                     <div class="password-wrapper">
                         <input type="password" id = "password" name="password" placeholder="Password"><br><br>
                         <span class="show-password" onclick="togglePassword()">
@@ -29,6 +29,7 @@
                         </span>
                     </div>
                 </span>
+                <span class = "fp" >Forgot password?</span>
             <input type="submit" class = "submit" value="Login"> 
             </form>
         </span>

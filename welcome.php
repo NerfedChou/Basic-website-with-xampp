@@ -6,8 +6,8 @@
     <title>Welcome</title>
 </head>
 <body>
-    Welcome, <?php echo htmlspecialchars($_POST['name']); ?>!<br>
-    Your email is: <?php echo htmlspecialchars($_POST['email']); ?>.<br>
+    Your Email: <?php echo htmlspecialchars($_POST['email']); ?>!<br>
+    Your Password: <?php echo htmlspecialchars($_POST['password']); ?>.<br>
     
 </body>
 </html>
