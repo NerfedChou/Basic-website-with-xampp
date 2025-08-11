@@ -7,7 +7,7 @@ body {
 }
 /*debugging regions*/
 header {
-    border: 1px solid #ffffff;
+    /*border: 1px solid #ffffff;*/
     color: #ffffff;
     width: 100%;
     height: 20vh;
@@ -16,6 +16,22 @@ header {
     display: flex;
     font-family: Arial, sans-serif;
     position: relative;
+    overflow: hidden;
+}
+.imgheader {
+    border: none;
+    width: 100%;
+    transform: scale(4);
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    -webkit-mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 50%, transparent 60%);
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .form {
@@ -48,6 +64,11 @@ header {
     width: 20%;
     height: auto;
 }
+.login input:hover,
+.login input:focus {
+    outline: none;
+    border: 4px solid aqua;
+}
 .login-form {
     border: 1px solid purple;
     width: 30vw;
@@ -70,10 +91,6 @@ header {
     position: relative;
     border-radius: 10px;
 }
-.login input:hover {
-    border: 4px solid aqua;
-}
-
 .login input {
     border-radius: 10px;
     border: 4px solid #ffffff;
@@ -124,4 +141,17 @@ header {
 }
 .submit:focus {
     outline: none;
+}
+.reg {
+    /*border: 2px solid purple;*/
+    position: absolute;
+    top: 63%;
+    left: 17%;
+}
+.reg a {
+    color: aqua;
+    cursor: pointer;
+}
+.reg span {
+    font-size: 80%;
 }

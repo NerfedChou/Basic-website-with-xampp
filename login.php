@@ -9,7 +9,9 @@
 
 <body>
     <header>
-    Be a Hacker now (FOCUSING ON LOGIN)
+        <div class="imgheader">
+            <img src="LoginPics/loginheader.jpg" alt="">
+        </div>
     </header>
     <div class="form"> <!-- Region -->
         <span class="login-form">
@@ -32,6 +34,11 @@
                 <span class = "fp" >Forgot password?</span>
             <input type="submit" class = "submit" value="Login"> 
             </form>
+            <span class = "reg">
+                <span = >No Account yet? 
+                    <a>Register here</a>
+                </span>
+            </span>
         </span>
     </div>
 <script src="script/login.js"></script>
